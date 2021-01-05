@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+  font-family: 'Indie Flower', cursive;
+  background-color: white ;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(50, 27, 59);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffbcd9;
+  color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ffbcd9;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  .block{
+    display:flex;
+    flex-direction:row;  
+    font-size: 60px;
+    color: black;
+}
+
+
+
+header{
+  background-image: url("https://i.pinimg.com/originals/8d/58/73/8d5873febaff9b2f0ade0da942f94bd5.jpg");
+  background-size: 100% 100%;
+  background: 8px solid black;
+  }
+
+  h1{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }
